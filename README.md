@@ -1,135 +1,145 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/y5vE8y_f_OM" target="_blank">
-      <img src="https://github.com/user-attachments/assets/eaaeb1f0-22da-46be-9e29-9bef70e0039d" alt="Project Banner">
-    </a>
+  <img src="https://github.com/user-attachments/assets/eaaeb1f0-22da-46be-9e29-9bef70e0039d" alt="Banner do Projeto">
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=61DAFB" alt="next.js" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=61DAFB" alt="Next.js" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="Tailwind CSS" />
   </div>
 
-  <h3 align="center">A Collaborative LiveDocs</h3>
+  <h3 align="center">LiveDocs - Editor Colaborativo em Tempo Real</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <div align="center">
+    Projeto desenvolvido por <b>Pedro Rocha</b>.
+  </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Índice
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
+1. 🤖 Introdução
+2. ⚙️ Tecnologias
+3. 🔋 Funcionalidades
+4. 🤸 Início Rápido
+5. 🧩 Snippets (Códigos Úteis)
+6. 🔗 Links
+7. 🚀 Mais
 
-## 🚨 Tutorial
+---
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+## 🤖 Introdução
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+**LiveDocs** é um editor de texto colaborativo inspirado no Google Docs. Ele permite que múltiplos usuários editem o mesmo documento em tempo real, com recursos como autenticação, compartilhamento de arquivos, comentários e presença de usuários.
 
-<a href="https://youtu.be/y5vE8y_f_OM" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+Este projeto foi idealizado e desenvolvido por **Pedro Rocha**, como demonstração prática de habilidades em aplicações web modernas com foco em colaboração em tempo real.
 
-## <a name="introduction">🤖 Introduction</a>
+---
 
-Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs. The primary goal is to demonstrate the developer's skills in realtime enviroment that creates a lasting impact.
+## ⚙️ Tecnologias
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
+- **Next.js** — Framework React para aplicações fullstack
+- **TypeScript** — Tipagem estática para maior confiabilidade
+- **Liveblocks** — Comunicação em tempo real e presença de usuários
+- **Lexical Editor** — Editor de texto modular
+- **Tailwind CSS** — Utilitários de estilização CSS
+- **ShadCN** — Componentes acessíveis e modernos
+- **NextAuth.js** — Autenticação via GitHub
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+---
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## 🔋 Funcionalidades
 
-- Next.js
-- TypeScript
-- Liveblocks
-- Lexical Editor
-- ShadCN
-- Tailwind CSS
+✅ **Autenticação de Usuários**  
+- Login e logout com GitHub utilizando NextAuth  
+- Sessões protegidas  
 
-## <a name="features">🔋 Features</a>
+✅ **Editor Colaborativo em Tempo Real**  
+- Edição simultânea por múltiplos usuários  
+- Indicadores de presença  
 
-👉 **Authentication**: User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management.
+✅ **Gerenciamento de Documentos**  
+- Criar, listar, compartilhar e excluir documentos  
+- Compartilhamento por link ou e-mail com permissões  
 
-👉 **Collaborative Text Editor**: Multiple users can edit the same document simultaneously with real-time updates.
+✅ **Comentários e Discussões**  
+- Comentários gerais e inline com suporte a threads  
 
-👉 **Documents Management**
-   - **Create Documents**: Users can create new documents, which are automatically saved and listed.
-   - **Delete Documents**: Users can delete documents they own.
-   - **Share Documents**: Users can share documents via email or link with view/edit permissions.
-   - **List Documents**: Display all documents owned or shared with the user, with search and sorting functionalities.
+✅ **Notificações**  
+- Atividades importantes como comentários ou novos acessos  
 
-👉 **Comments**: Users can add inline and general comments, with threading for discussions.
+✅ **Responsividade Total**  
+- Aplicação adaptada para todos os dispositivos  
 
-👉 **Active Collaborators on Text Editor**: Show active collaborators with real-time presence indicators.
+---
 
-👉 **Notifications**: Notify users of document shares, new comments, and collaborator activities.
+## 🤸 Início Rápido
 
-👉 **Responsive**: The application is responsive across all devices.
+### Requisitos
 
-and many more, including code architecture and reusability 
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
+Antes de começar, tenha instalado:
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-**Cloning the Repository**
+### Clonar o Repositório
 
 ```bash
-git clone https://github.com/adrianhajdin/collaborative-editor.git
+git clone https://github.com/seu-usuario/seu-repo.git
 cd collaborative-editor
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
+Instalar Dependências
+bash
+Copiar
+Editar
 npm install
-```
+Configurar Variáveis de Ambiente
+Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
 
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-#Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+env
+Copiar
+Editar
+# Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=sua_clave_publica
+CLERK_SECRET_KEY=sua_clave_secreta
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-#Liveblocks
-NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
-LIVEBLOCKS_SECRET_KEY=
-```
+# Liveblocks
+NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=sua_chave_publica_liveblocks
+LIVEBLOCKS_SECRET_KEY=sua_chave_secreta_liveblocks
+Você pode obter essas credenciais em clerk.com e liveblocks.io.
 
-Replace the placeholder values with your actual Clerk & LiveBlocks credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/) and [Liveblocks](liveblocks.io/) website.
-
-**Running the Project**
-
-```bash
+Rodar o Projeto
+bash
+Copiar
+Editar
 npm run dev
-```
+Abra http://localhost:3000 no navegador para ver o app.
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+🧩 Snippets
+Trechos de código úteis serão adicionados aqui em breve.
 
-## <a name="snippets">🕸️ Snippets</a>
+🔗 Links
+Clerk
 
+Liveblocks
+
+Next.js
+
+🚀 Mais
+Este projeto é um exemplo robusto de aplicação colaborativa e pode ser expandido com funcionalidades como:
+
+Controle de versões
+
+Histórico de edições
+
+Permissões avançadas por documento
+
+<div align="center">
+Desenvolvido com ❤️ por <strong>Pedro Rocha</strong>
+
+</div> ```
 <details>
 <summary><code>globals.css</code></summary>
 
